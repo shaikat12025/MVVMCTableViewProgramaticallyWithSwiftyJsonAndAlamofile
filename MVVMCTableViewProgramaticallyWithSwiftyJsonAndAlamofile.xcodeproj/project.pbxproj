@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		929362F020E10D23007A489C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929362EF20E10D23007A489C /* AppDelegate.swift */; };
-		929362F220E10D23007A489C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929362F120E10D23007A489C /* ViewController.swift */; };
-		929362F520E10D23007A489C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929362F320E10D23007A489C /* Main.storyboard */; };
 		929362F720E10D23007A489C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929362F620E10D23007A489C /* Assets.xcassets */; };
 		929362FA20E10D23007A489C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929362F820E10D23007A489C /* LaunchScreen.storyboard */; };
+		92C4C4EF20E10E4000349B38 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4C4EE20E10E4000349B38 /* RestAPI.swift */; };
+		92C4C4F220E10EAA00349B38 /* MVVMCListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4C4F120E10EAA00349B38 /* MVVMCListModel.swift */; };
+		92C4C4F620E10EFF00349B38 /* MVVMCListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4C4F520E10EFF00349B38 /* MVVMCListViewModelProtocol.swift */; };
+		92C4C4F820E10F2100349B38 /* MVVMCListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4C4F720E10F2100349B38 /* MVVMCListViewModel.swift */; };
+		92C4C50220E10FFD00349B38 /* MVVMCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4C50120E10FFD00349B38 /* MVVMCListViewController.swift */; };
+		92D178E920E14B6B00FAA6D8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D178E820E14B6B00FAA6D8 /* ListTableViewCell.swift */; };
+		983C03B662B60D9CD79B99B8 /* Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8982631318575D829C2AE852 /* Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EC79109FE20051FCBE91583 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.debug.xcconfig"; sourceTree = "<group>"; };
+		7BAD3DCEA30FE69F1D3E2C72 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.release.xcconfig"; sourceTree = "<group>"; };
+		8982631318575D829C2AE852 /* Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		929362EC20E10D23007A489C /* MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929362EF20E10D23007A489C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		929362F120E10D23007A489C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		929362F420E10D23007A489C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929362F620E10D23007A489C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929362F920E10D23007A489C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929362FB20E10D23007A489C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C4C4EE20E10E4000349B38 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		92C4C4F120E10EAA00349B38 /* MVVMCListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCListModel.swift; sourceTree = "<group>"; };
+		92C4C4F520E10EFF00349B38 /* MVVMCListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCListViewModelProtocol.swift; sourceTree = "<group>"; };
+		92C4C4F720E10F2100349B38 /* MVVMCListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCListViewModel.swift; sourceTree = "<group>"; };
+		92C4C50120E10FFD00349B38 /* MVVMCListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCListViewController.swift; sourceTree = "<group>"; };
+		92D178E820E14B6B00FAA6D8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983C03B662B60D9CD79B99B8 /* Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26ADAE3F31D6B906D94606DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8982631318575D829C2AE852 /* Pods_MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		929362E320E10D23007A489C = {
 			isa = PBXGroup;
 			children = (
 				929362EE20E10D23007A489C /* MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile */,
 				929362ED20E10D23007A489C /* Products */,
+				EFC42D3423FDDA2CEA071CCB /* Pods */,
+				26ADAE3F31D6B906D94606DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,83 @@
 		929362EE20E10D23007A489C /* MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile */ = {
 			isa = PBXGroup;
 			children = (
-				929362EF20E10D23007A489C /* AppDelegate.swift */,
-				929362F120E10D23007A489C /* ViewController.swift */,
-				929362F320E10D23007A489C /* Main.storyboard */,
+				92C4C50320E1106C00349B38 /* View Cell */,
+				92C4C50020E10FDA00349B38 /* View Controller */,
+				92C4C4F320E10ED900349B38 /* View Model */,
+				92C4C4F020E10E9300349B38 /* Model */,
+				92C4C4ED20E10E2800349B38 /* Singleton API */,
+				92C4C4EC20E10DF700349B38 /* App Delegate */,
 				929362F620E10D23007A489C /* Assets.xcassets */,
 				929362F820E10D23007A489C /* LaunchScreen.storyboard */,
 				929362FB20E10D23007A489C /* Info.plist */,
 			);
 			path = MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile;
+			sourceTree = "<group>";
+		};
+		92C4C4EC20E10DF700349B38 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				929362EF20E10D23007A489C /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		92C4C4ED20E10E2800349B38 /* Singleton API */ = {
+			isa = PBXGroup;
+			children = (
+				92C4C4EE20E10E4000349B38 /* RestAPI.swift */,
+			);
+			path = "Singleton API";
+			sourceTree = "<group>";
+		};
+		92C4C4F020E10E9300349B38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92C4C4F120E10EAA00349B38 /* MVVMCListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92C4C4F320E10ED900349B38 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				92C4C4F420E10EE700349B38 /* Protocol */,
+				92C4C4F720E10F2100349B38 /* MVVMCListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		92C4C4F420E10EE700349B38 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				92C4C4F520E10EFF00349B38 /* MVVMCListViewModelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		92C4C50020E10FDA00349B38 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92C4C50120E10FFD00349B38 /* MVVMCListViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		92C4C50320E1106C00349B38 /* View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92D178E820E14B6B00FAA6D8 /* ListTableViewCell.swift */,
+			);
+			path = "View Cell";
+			sourceTree = "<group>";
+		};
+		EFC42D3423FDDA2CEA071CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EC79109FE20051FCBE91583 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.debug.xcconfig */,
+				7BAD3DCEA30FE69F1D3E2C72 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 929362FE20E10D23007A489C /* Build configuration list for PBXNativeTarget "MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile" */;
 			buildPhases = (
+				5E432B2DB220DC50F8AFF75A /* [CP] Check Pods Manifest.lock */,
 				929362E820E10D23007A489C /* Sources */,
 				929362E920E10D23007A489C /* Frameworks */,
 				929362EA20E10D23007A489C /* Resources */,
+				EF9C9324344DC4C8C9196D87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,7 +190,7 @@
 				TargetAttributes = {
 					929362EB20E10D23007A489C = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -125,33 +219,70 @@
 			files = (
 				929362FA20E10D23007A489C /* LaunchScreen.storyboard in Resources */,
 				929362F720E10D23007A489C /* Assets.xcassets in Resources */,
-				929362F520E10D23007A489C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E432B2DB220DC50F8AFF75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9C9324344DC4C8C9196D87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		929362E820E10D23007A489C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929362F220E10D23007A489C /* ViewController.swift in Sources */,
+				92C4C4F820E10F2100349B38 /* MVVMCListViewModel.swift in Sources */,
+				92C4C4EF20E10E4000349B38 /* RestAPI.swift in Sources */,
+				92C4C4F620E10EFF00349B38 /* MVVMCListViewModelProtocol.swift in Sources */,
+				92C4C4F220E10EAA00349B38 /* MVVMCListModel.swift in Sources */,
 				929362F020E10D23007A489C /* AppDelegate.swift in Sources */,
+				92C4C50220E10FFD00349B38 /* MVVMCListViewController.swift in Sources */,
+				92D178E920E14B6B00FAA6D8 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		929362F320E10D23007A489C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				929362F420E10D23007A489C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		929362F820E10D23007A489C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,13 +403,17 @@
 		};
 		929362FF20E10D23007A489C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC79109FE20051FCBE91583 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstApp.shaikat.MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +421,17 @@
 		};
 		9293630020E10D23007A489C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAD3DCEA30FE69F1D3E2C72 /* Pods-MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstApp.shaikat.MVVMCTableViewProgramaticallyWithSwiftyJsonAndAlamofile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -12,10 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+   // var appCoordinator : AppCoordinator!
+
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        // Override point for customization after application launch.
+//        window = UIWindow()
+//        //passing the window to AppCoordinator
+//        appCoordinator = AppCoordinator(window : window!)
+//        appCoordinator.start()
+//        //shows the window and make it the key window
+//        window?.makeKeyAndVisible()
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let MVVMCListViewController = UIViewController()
+//        MVVMCListViewController.view.backgroundColor = UIColor.red
+//        window!.rootViewController = MVVMCListViewController
+//        window!.makeKeyAndVisible()
+        
+        window = UIWindow(frame:UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        let vc = MVVMCListViewController()
+        let viewModel = MVVMCListViewModel()
+        vc.viewModel = viewModel
+
+        window?.rootViewController = vc
         return true
     }
 
